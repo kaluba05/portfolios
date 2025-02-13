@@ -3,7 +3,7 @@ const app = express();
 
 // When someone visits the root URL ("/"), redirect them to Google
 app.get('/', (req, res) => {
-  res.redirect('https://embeds.beehiiv.com/c59cff7e-fc1b-47b3-add3-4175ce85a1ea');
+  res.redirect('https://embeds.beehiiv.com/8e14a814-c5fb-4b5f-a671-86dd4ae6795c');
 });
 
 // Start the server and listen on whatever port is given to us,
